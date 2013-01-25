@@ -1,0 +1,18 @@
+html,body{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,th,td,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;text-align:left;}
+table{border-collapse:collapse;border-spacing:0;}
+a:hover img.bordered{border-color:#0084b4;border-color:#00a0d1;box-shadow:0 0 9px rgba(55, 135, 168, 0.5);-moz-box-shadow:0 0 9px rgba(55, 135, 168, 0.5);-webkit-box-shadow:0 0 9px rgba(55, 135, 168, 0.5);}
+body{background:#fff;font:normal 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#333;text-rendering:optimizeLegibility;}
+a,a:visited{color:#0084b4;text-decoration:none;}
+a:hover{color:#005f81;text-decoration:underline;}
+hr{margin:26px 0;border:0;border-top:1px solid #eee;border-bottom:1px solid #fff;}strong{font-style:inherit;font-weight:bold;}
+img{display:block;margin:0 0 20px;}
+h1,h2,h3,h4,h5,h6{margin:0;line-height:1;color:#111;}
+h1{font-size:40px;margin:0 0 14px;letter-spacing:-1px;}
+h4{font-size:18px;margin:14px 0 4px;}
+body.ie6 div.row{width:960px;}
+
+h1,h2,h3,h4,h5,h6{color:#222;font-weight:bold;}
+h1{margin-bottom:5px;}
+
+body,p,li{color:#555;}

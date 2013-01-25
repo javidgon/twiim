@@ -1,0 +1,45 @@
+/* 
+    Document   : topbar
+    Created on : 10-nov-2011, 10:15:25
+    Author     : javidgon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+
+div#top{
+
+    background-color: #fff;
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    position: fixed !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+.credits{
+    background-color: #CDEB8B;
+    padding-top: 7px;
+    color:#5C8E55;
+    width:100%;
+    height:30px;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-topleft: 40px;
+}
+

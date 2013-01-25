@@ -1,0 +1,262 @@
+/* 
+    Document   : searcher
+    Created on : 26-oct-2011, 11:17:29
+    Author     : javidgon
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/* 
+    THIS CSS IS USED WHEN THE RESULTS ARE SHOWED.
+
+*/
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    src: url('http://twiimcdn.appspot.com/styles/HelveticaNeue.ttf');
+
+}
+
+@font-face {
+    font-family: 'HelveticaNeueBold';
+    font-style: normal;
+    src: url('http://twiimcdn.appspot.com/styles/HelveticaNeueBold.ttf');
+
+}
+html,body{
+    color:#754C24;
+    margin:0; 
+    padding:0;
+    height: 100%;
+    font-family: 'HelveticaNeueBold';
+}
+
+body{
+
+    background-image: url("http://twiimcdn.appspot.com/img/bg.png");
+    background-repeat: repeat;
+    
+    
+    }
+
+div.everything{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em
+}
+
+
+div#top{
+
+    background-color: #603813; /* #813724 */
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    position: fixed !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display:inline;
+    min-width: 800px;
+    font-family: 'HelveticaNeueBold';
+}
+
+div#top span a{
+    
+    color:white;
+    font-size: 1em;
+
+
+}
+
+/* TITLE */
+
+
+h1{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: #754C24;
+
+}
+
+/* SLOGAN */
+
+h4{
+    color:#A85A45;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: 'HelveticaNeueBold';
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+div.results{
+    margin-top: 1%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    border: 1px #EAE3DC solid;
+    background-color: #F3EFE7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+	color:black;
+}
+
+/* FORM TEXT */
+
+input.text {width: 100%; padding: 3px 2px 2px 2px; font-size: 2em; font-weight: bold;}
+
+.default-text{
+    color:#ebebeb;
+}
+
+.focused{
+    color:#754C24;
+}
+
+
+#logo img{
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+#userscloud{
+    display:block;
+    width:400px;
+    color:#754C24;
+    text-align:center;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding:0px;
+
+    
+}
+
+
+#userscloud img{
+    display:inline;
+    width:30px;
+    height:30px;
+    margin:0px;
+    padding:0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+#userscloud img:hover{
+    
+    border:1px black solid;   
+    
+}
+
+#tagcloud {
+    width: 400px;
+    color:#754C24;
+    padding: 10px;
+    text-align:center;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tagcloud a:link, #tagcloud a:visited {
+    text-decoration:none;
+    color: #754C24;
+}
+
+#tagcloud a:hover {
+    text-decoration: underline;
+}
+
+#tagcloud span {
+    padding: 4px;
+}
+
+#tagcloud .smallest {
+    font-size: x-small;
+}
+
+#tagcloud .small {
+    font-size: small;
+}
+
+#tagcloud .medium {
+    font-size:medium;
+}
+
+#tagcloud .large {
+    font-size:large;
+}
+
+#tagcloud .largest {
+    font-size:larger;
+}
+
+.credits{
+    background-color: #A85A45;
+    padding-top: 10px;
+margin-top:20px;
+    color:white;
+    width:100%;
+    height:30px;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-topleft: 40px;
+}
+
+.push{
+    padding-bottom: 10px;
+}
+
+.credits,.push{
+    height: 30px;
+}
+
+.index h3{
+	margin-top:3%;
+	color:#A85A45;
+	font-size:2em;
+}
+
+.index p{
+	font-size:1.3em;
+	margin-top:2%;
+	text-indent:50px;
+        line-height: 30px;
+}
+
+.index ul{
+    margin-top:3%;
+}
+.index li{
+	font-size:1.3em;
+	text-indent:50px;
+        line-height: 30px;
+}
+
+.index #simbol{
+        color:#0085B0;
+        font-size: 2em;
+        margin-right:1%; 
+    
+}

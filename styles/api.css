@@ -1,0 +1,26 @@
+/* 
+    Document   : api
+    Created on : 10-nov-2011, 10:28:18
+    Author     : javidgon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.api-body{
+    padding-top: 10%;
+}
+
+#explanation{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
